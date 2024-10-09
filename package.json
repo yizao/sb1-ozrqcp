@@ -1,0 +1,28 @@
+{
+  "name": "qiankun-microfrontend-project",
+  "version": "1.0.0",
+  "description": "Qiankun micro-frontend project with Ant Design Pro layout",
+  "scripts": {
+    "start": "npm run start:main & npm run start:micro1 & npm run start:micro2",
+    "start:main": "cd main-app && umi dev",
+    "start:micro1": "cd micro-app1 && umi dev",
+    "start:micro2": "cd micro-app2 && umi dev",
+    "build": "npm run build:main && npm run build:micro1 && npm run build:micro2",
+    "build:main": "cd main-app && umi build",
+    "build:micro1": "cd micro-app1 && umi build",
+    "build:micro2": "cd micro-app2 && umi build"
+  },
+  "dependencies": {
+    "@ant-design/pro-layout": "^6.38.22",
+    "@umijs/preset-react": "1.x",
+    "qiankun": "^2.8.4",
+    "react": "^17.0.0",
+    "react-dom": "^17.0.0",
+    "umi": "^3.5.34"
+  },
+  "devDependencies": {
+    "@types/react": "^17.0.0",
+    "@types/react-dom": "^17.0.0",
+    "typescript": "^4.1.2"
+  }
+}

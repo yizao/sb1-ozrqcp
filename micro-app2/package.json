@@ -1,0 +1,17 @@
+{
+  "name": "micro-app2",
+  "version": "1.0.0",
+  "scripts": {
+    "start": "umi dev",
+    "build": "umi build"
+  },
+  "dependencies": {
+    "@umijs/preset-react": "1.x",
+    "umi": "^3.5.34"
+  },
+  "devDependencies": {
+    "@types/react": "^17.0.0",
+    "@types/react-dom": "^17.0.0",
+    "typescript": "^4.1.2"
+  }
+}
